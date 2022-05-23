@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 80px;
+    color: #F9FAF8;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
+}
+
+.call button {
+    border: 2px solid #F9FAF8;
+    margin-left: auto;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 80px 150px;
+    gap: 0px;
+    align-items: center;
+    gap: 45px;
+}
+
+.left-hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-hero {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-hero {
+    background-color: #3A3B3C;
+    width: 500px;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a,
+.right-hero p,
+.left-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info {
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.quote {
+    padding: 80px 150px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.person {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    margin: 60px 150px;
+    padding: 20px 80px;
+    align-items: center;
+}
+
+
